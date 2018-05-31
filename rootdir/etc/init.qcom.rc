@@ -795,8 +795,8 @@ service wlan_logging /system/bin/cnss_diag -q -f
 #     group system inet net_admin wifi
 #     capabilities NET_ADMIN
 
-# on property:sys.shutdown.requested=*
-#     stop cnss-daemon
+on property:sys.powerctl=*
+    stop cnss-daemon
 
 service dhcpcd_bt-pan /system/bin/dhcpcd -BKLG
     class late_start
