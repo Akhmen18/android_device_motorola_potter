@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo validus_potter-userdebug
+add_lunch_combo candy_potter-userdebug
+
+add_lunch_combo candy_potter-user
