@@ -346,3 +346,7 @@ ro.vendor.gt_library=libqti-gt.so
 # touch optimize
 persist.vendor.qti.inputopts.enable=true
 persist.vendor.qti.inputopts.movetouchslop=0.6
+
+#Device
+ro.product.model=Moto G5 Plus
+ro.build.product=Moto G5 Plus
